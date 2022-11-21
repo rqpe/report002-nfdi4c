@@ -116,7 +116,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
 @page {
   size: 210mm 297mm;
   margin-top: 20mm;
-  margin-bottom: 25mm;
+  margin-bottom: 30mm;
 }
 
 @page :first {
@@ -151,6 +151,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.4;
     color: #000;
     letter-spacing: 0.1pt;
     /*word-spacing: 1px;*/
@@ -158,7 +159,7 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0 50%;
-    padding-top: 14px;
+    padding-top: 20px;
     vertical-align: top;
     width: 75%;
     }
@@ -188,13 +189,14 @@ src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.4;
     color: #000;
     letter-spacing: 0.1pt;
     background-image: linear-gradient(#670001,#670001);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 100% 50%;
-    padding-top: 15px;
+    padding-top: 20px;
     vertical-align: top;
     width: 75%;
   }
