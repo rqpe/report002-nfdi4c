@@ -479,3 +479,8 @@ nav.app-nav li a, nav.app-nav li a:visited {
   height: 0; overflow: hidden;
   max-width: 100%;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  --heading-h1-font-size: 2rem;
+  }
+}
